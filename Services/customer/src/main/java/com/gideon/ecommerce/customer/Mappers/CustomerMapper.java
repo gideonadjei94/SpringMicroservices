@@ -1,5 +1,5 @@
 package com.gideon.ecommerce.customer.Mappers;
-import com.gideon.ecommerce.customer.Customer;
+import com.gideon.ecommerce.customer.Models.Customer;
 import com.gideon.ecommerce.customer.Dtos.CustomerDto;
 import org.springframework.stereotype.Service;
 

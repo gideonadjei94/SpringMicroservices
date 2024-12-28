@@ -1,7 +1,6 @@
 package com.gideon.ecommerce.customer.Dtos;
 
-import com.gideon.ecommerce.customer.Address;
-import lombok.Data;
+import com.gideon.ecommerce.customer.Models.Address;
 
 
 public record CustomerDto(

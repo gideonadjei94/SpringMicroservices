@@ -1,4 +1,4 @@
-package com.gideon.ecommerce.customer;
+package com.gideon.ecommerce.customer.Models;
 
 import lombok.*;
 import org.springframework.validation.annotation.Validated;

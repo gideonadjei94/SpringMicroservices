@@ -1,9 +1,10 @@
-package com.gideon.ecommerce.customer;
+package com.gideon.ecommerce.Requests;
 
+import com.gideon.ecommerce.customer.Models.Address;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
 
-public record CustomerRequest(
+public record CreateCustomerRequest(
 
         @NotNull(message = "Customer firstname is required")
         String firstName,
