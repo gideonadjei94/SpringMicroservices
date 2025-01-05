@@ -1,4 +1,4 @@
-package com.gideon.ecommerce.product;
+package com.gideon.ecommerce.product.Repository;
 
 import com.gideon.ecommerce.product.Models.Product;
 import org.springframework.data.jpa.repository.JpaRepository;

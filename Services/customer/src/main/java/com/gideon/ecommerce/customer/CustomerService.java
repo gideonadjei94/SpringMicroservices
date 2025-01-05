@@ -1,8 +1,8 @@
 package com.gideon.ecommerce.customer;
 
 
-import com.gideon.ecommerce.Requests.CreateCustomerRequest;
-import com.gideon.ecommerce.Requests.UpdateCustomerRequest;
+import com.gideon.ecommerce.customer.Requests.CreateCustomerRequest;
+import com.gideon.ecommerce.customer.Requests.UpdateCustomerRequest;
 import com.gideon.ecommerce.customer.Dtos.CustomerDto;
 import com.gideon.ecommerce.customer.Exceptions.AlreadyExistsException;
 import com.gideon.ecommerce.customer.Exceptions.ResourceNotFoundException;

@@ -3,15 +3,16 @@ package com.gideon.ecommerce.product.Models;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.springframework.validation.annotation.Validated;
 
 import java.math.BigDecimal;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 @Getter
 @Setter
 @Entity
+@Validated
 public class Product {
 
     @Id

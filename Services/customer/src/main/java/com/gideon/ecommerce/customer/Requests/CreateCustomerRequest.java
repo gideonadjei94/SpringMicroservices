@@ -1,4 +1,4 @@
-package com.gideon.ecommerce.Requests;
+package com.gideon.ecommerce.customer.Requests;
 
 import com.gideon.ecommerce.customer.Models.Address;
 import jakarta.validation.constraints.Email;

@@ -1,12 +1,11 @@
 package com.gideon.ecommerce.customer;
 
-import com.gideon.ecommerce.Requests.CreateCustomerRequest;
-import com.gideon.ecommerce.Requests.UpdateCustomerRequest;
+import com.gideon.ecommerce.customer.Requests.CreateCustomerRequest;
+import com.gideon.ecommerce.customer.Requests.UpdateCustomerRequest;
 import com.gideon.ecommerce.customer.Dtos.CustomerDto;
 import com.gideon.ecommerce.customer.Exceptions.ResourceNotFoundException;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
