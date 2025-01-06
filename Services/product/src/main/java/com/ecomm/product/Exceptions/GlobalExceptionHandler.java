@@ -22,6 +22,13 @@ public class GlobalExceptionHandler {
                 .body(new ApiResponse(ex.getMessage(), null));
     }
 
+    @ExceptionHandler(AlreadyExistsException.class)
+    public ResponseEntity<ApiResponse> handle(AlreadyExistsException ex){
+        return ResponseEntity
+                .status(BAD_REQUEST)
+                .body(new ApiResponse(ex.getMessage(), null));
+    }
+
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<ApiResponse> handle(MethodArgumentNotValidException ex) {
         Map<String, String> errors = new HashMap<>();
