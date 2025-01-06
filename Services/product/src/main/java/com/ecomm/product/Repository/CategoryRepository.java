@@ -1,6 +1,6 @@
-package com.gideon.ecommerce.product.Repository;
+package com.ecomm.product.Repository;
 
-import com.gideon.ecommerce.product.Models.Category;
+import com.ecomm.product.Models.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

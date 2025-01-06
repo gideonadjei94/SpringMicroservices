@@ -1,29 +1,29 @@
-package com.gideon.ecommerce.product.Models;
-
+package com.ecomm.product.Models;
 
 import jakarta.persistence.*;
-import lombok.*;
-import org.springframework.validation.annotation.Validated;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.math.BigDecimal;
 
-@AllArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
-@Validated
 public class Product {
-
     @Id
     @GeneratedValue
     private Integer id;
     private String name;
     private String description;
-    private double quantity;
+    private Integer quantity;
     private BigDecimal price;
 
     @ManyToOne
     @JoinColumn(name = "category_id")
     private Category category;
+
 }

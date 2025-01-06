@@ -1,4 +1,4 @@
-package com.gideon.ecommerce.product;
+package com.ecomm.product;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

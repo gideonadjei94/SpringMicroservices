@@ -1,6 +1,6 @@
-package com.gideon.ecommerce.product.Exceptions;
+package com.ecomm.product.Exceptions;
 
-import com.gideon.ecommerce.product.ApiResponse;
+import com.ecomm.product.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -16,10 +16,10 @@ import static org.springframework.http.HttpStatus.BAD_REQUEST;
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(ResourceNotFoundException.class)
-    public ResponseEntity<ApiResponse> handle(ResourceNotFoundException e){
+    public ResponseEntity<ApiResponse> handle(ResourceNotFoundException ex){
         return ResponseEntity
                 .status(BAD_REQUEST)
-                .body(new ApiResponse(e.getMessage(),null));
+                .body(new ApiResponse(ex.getMessage(), null));
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)

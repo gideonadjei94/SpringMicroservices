@@ -1,4 +1,4 @@
-package com.gideon.ecommerce.product;
+package com.ecomm.product;
 
 public record ApiResponse(
         String message,
